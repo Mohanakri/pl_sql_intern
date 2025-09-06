@@ -1,17 +1,16 @@
-# Welcome to MkDocs
+# Welcome to PL/SQL Interview Guide
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+This guide covers **SQL**, **PL/SQL**, and **Interview Questions**.  
+Click below to start exploring 👇
 
-## Commands
+---
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
+## 📖 Sections
 
-## Project layout
+- [Introduction](Interview/1.Introduction.md)
+- [SQL Interview Questions](Interview/2.sql.md)
+- [PL/SQL Basics](Interview/3.plsql.md)
 
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+---
+
+> 💡 Tip: Use the navigation bar at the top for quick access to all topics.
