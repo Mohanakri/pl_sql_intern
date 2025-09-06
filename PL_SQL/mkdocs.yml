@@ -2,16 +2,21 @@ site_name: pl_sql_interview
 theme:
   name: material
   palette:
-    - scheme: slate       # Light theme
+    # Default: Dark theme
+    - scheme: slate
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/weather-night
+        name: Switch to light mode
+
+    # Alternate: Light theme
+    - scheme: default
       primary: green
       accent: indigo
       toggle:
-        icon: material/weather-night  # Dark mode icon
-        name: Switch to dark mode
-    - scheme: default         # Dark theme
-      toggle:
         icon: material/white-balance-sunny
-        name: Switch to light mode
+        name: Switch to dark mode
 
 # extra_css:
 #       - extra.css
@@ -35,7 +40,7 @@ theme:
     - search.highlight
 
 #
-# PL_SQL\docs\Interview\1.Introduction.md
+# PL_SQL\docs\PL_SQL\docs\1.Interview.md
 
 nav:
    
@@ -45,7 +50,7 @@ nav:
   - Sql:
       - sql_interview : Interview/2.sql.md
   - PL-SQL:
-      - Plsql-Intro: Interview/3.pl_sql.md
+      - Plsql-Intro: Interview/3.plsql.md
 
           
 
