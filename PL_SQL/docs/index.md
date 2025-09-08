@@ -14,3 +14,7 @@ Click below to start exploring 👇
 ---
 
 > 💡 Tip: Use the navigation bar at the top for quick access to all topics.
+
+
+# Deploy to gh-pages branch
+mkdocs gh-deploy
