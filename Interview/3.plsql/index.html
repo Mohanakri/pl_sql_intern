@@ -44,6 +44,8 @@
       
     
     
+      <link rel="stylesheet" href="../../styles/extra.css">
+    
     <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
@@ -70,7 +72,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#plsql-concepts-organized-by-categories" class="md-skip">
+        <a href="#plsql-syntax-reference-guide-with-definitions" class="md-skip">
           Skip to content
         </a>
       
@@ -539,162 +541,117 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#fundamentals" class="md-nav__link">
+  <a href="#1-basic-block-structure" class="md-nav__link">
     <span class="md-ellipsis">
-      FUNDAMENTALS
+      1. BASIC BLOCK STRUCTURE
     </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#variables-and-datatypes" class="md-nav__link">
+  <a href="#2-variables-and-datatypes" class="md-nav__link">
     <span class="md-ellipsis">
-      VARIABLES AND DATATYPES
+      2. VARIABLES AND DATATYPES
     </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#cursors" class="md-nav__link">
+  <a href="#3-control-structures" class="md-nav__link">
     <span class="md-ellipsis">
-      CURSORS
+      3. CONTROL STRUCTURES
     </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#control-structures" class="md-nav__link">
+  <a href="#4-cursors" class="md-nav__link">
     <span class="md-ellipsis">
-      CONTROL STRUCTURES
+      4. CURSORS
     </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#exception-handling" class="md-nav__link">
+  <a href="#5-exception-handling" class="md-nav__link">
     <span class="md-ellipsis">
-      EXCEPTION HANDLING
+      5. EXCEPTION HANDLING
     </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#subprograms" class="md-nav__link">
+  <a href="#6-subprograms" class="md-nav__link">
     <span class="md-ellipsis">
-      SUBPROGRAMS
+      6. SUBPROGRAMS
     </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#packages" class="md-nav__link">
+  <a href="#7-packages" class="md-nav__link">
     <span class="md-ellipsis">
-      PACKAGES
+      7. PACKAGES
     </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#triggers" class="md-nav__link">
+  <a href="#8-triggers" class="md-nav__link">
     <span class="md-ellipsis">
-      TRIGGERS
+      8. TRIGGERS
     </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#collections" class="md-nav__link">
+  <a href="#9-collections" class="md-nav__link">
     <span class="md-ellipsis">
-      COLLECTIONS
+      9. COLLECTIONS
     </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#bulk-operations" class="md-nav__link">
+  <a href="#10-bulk-operations" class="md-nav__link">
     <span class="md-ellipsis">
-      BULK OPERATIONS
+      10. BULK OPERATIONS
     </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#transaction-control" class="md-nav__link">
+  <a href="#11-transaction-control" class="md-nav__link">
     <span class="md-ellipsis">
-      TRANSACTION CONTROL
+      11. TRANSACTION CONTROL
     </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#dynamic-sql" class="md-nav__link">
+  <a href="#12-dynamic-sql" class="md-nav__link">
     <span class="md-ellipsis">
-      DYNAMIC SQL
+      12. DYNAMIC SQL
     </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#performance-and-optimization" class="md-nav__link">
+  <a href="#13-performance-features" class="md-nav__link">
     <span class="md-ellipsis">
-      PERFORMANCE AND OPTIMIZATION
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#compilation-and-dependencies" class="md-nav__link">
-    <span class="md-ellipsis">
-      COMPILATION AND DEPENDENCIES
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#performance-tuning" class="md-nav__link">
-    <span class="md-ellipsis">
-      PERFORMANCE TUNING
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#security-and-privileges" class="md-nav__link">
-    <span class="md-ellipsis">
-      SECURITY AND PRIVILEGES
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#design-patterns-and-best-practices" class="md-nav__link">
-    <span class="md-ellipsis">
-      DESIGN PATTERNS AND BEST PRACTICES
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#pragma-directives" class="md-nav__link">
-    <span class="md-ellipsis">
-      PRAGMA DIRECTIVES
+      13. PERFORMANCE FEATURES
     </span>
   </a>
   
@@ -743,162 +700,117 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#fundamentals" class="md-nav__link">
+  <a href="#1-basic-block-structure" class="md-nav__link">
     <span class="md-ellipsis">
-      FUNDAMENTALS
+      1. BASIC BLOCK STRUCTURE
     </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#variables-and-datatypes" class="md-nav__link">
+  <a href="#2-variables-and-datatypes" class="md-nav__link">
     <span class="md-ellipsis">
-      VARIABLES AND DATATYPES
+      2. VARIABLES AND DATATYPES
     </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#cursors" class="md-nav__link">
+  <a href="#3-control-structures" class="md-nav__link">
     <span class="md-ellipsis">
-      CURSORS
+      3. CONTROL STRUCTURES
     </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#control-structures" class="md-nav__link">
+  <a href="#4-cursors" class="md-nav__link">
     <span class="md-ellipsis">
-      CONTROL STRUCTURES
+      4. CURSORS
     </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#exception-handling" class="md-nav__link">
+  <a href="#5-exception-handling" class="md-nav__link">
     <span class="md-ellipsis">
-      EXCEPTION HANDLING
+      5. EXCEPTION HANDLING
     </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#subprograms" class="md-nav__link">
+  <a href="#6-subprograms" class="md-nav__link">
     <span class="md-ellipsis">
-      SUBPROGRAMS
+      6. SUBPROGRAMS
     </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#packages" class="md-nav__link">
+  <a href="#7-packages" class="md-nav__link">
     <span class="md-ellipsis">
-      PACKAGES
+      7. PACKAGES
     </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#triggers" class="md-nav__link">
+  <a href="#8-triggers" class="md-nav__link">
     <span class="md-ellipsis">
-      TRIGGERS
+      8. TRIGGERS
     </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#collections" class="md-nav__link">
+  <a href="#9-collections" class="md-nav__link">
     <span class="md-ellipsis">
-      COLLECTIONS
+      9. COLLECTIONS
     </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#bulk-operations" class="md-nav__link">
+  <a href="#10-bulk-operations" class="md-nav__link">
     <span class="md-ellipsis">
-      BULK OPERATIONS
+      10. BULK OPERATIONS
     </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#transaction-control" class="md-nav__link">
+  <a href="#11-transaction-control" class="md-nav__link">
     <span class="md-ellipsis">
-      TRANSACTION CONTROL
+      11. TRANSACTION CONTROL
     </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#dynamic-sql" class="md-nav__link">
+  <a href="#12-dynamic-sql" class="md-nav__link">
     <span class="md-ellipsis">
-      DYNAMIC SQL
+      12. DYNAMIC SQL
     </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#performance-and-optimization" class="md-nav__link">
+  <a href="#13-performance-features" class="md-nav__link">
     <span class="md-ellipsis">
-      PERFORMANCE AND OPTIMIZATION
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#compilation-and-dependencies" class="md-nav__link">
-    <span class="md-ellipsis">
-      COMPILATION AND DEPENDENCIES
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#performance-tuning" class="md-nav__link">
-    <span class="md-ellipsis">
-      PERFORMANCE TUNING
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#security-and-privileges" class="md-nav__link">
-    <span class="md-ellipsis">
-      SECURITY AND PRIVILEGES
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#design-patterns-and-best-practices" class="md-nav__link">
-    <span class="md-ellipsis">
-      DESIGN PATTERNS AND BEST PRACTICES
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#pragma-directives" class="md-nav__link">
-    <span class="md-ellipsis">
-      PRAGMA DIRECTIVES
+      13. PERFORMANCE FEATURES
     </span>
   </a>
   
@@ -920,538 +832,521 @@
 
 
 
-<h1 id="plsql-concepts-organized-by-categories">PL/SQL Concepts Organized by Categories<a class="headerlink" href="#plsql-concepts-organized-by-categories" title="Permanent link">&para;</a></h1>
-<h2 id="fundamentals"><strong>FUNDAMENTALS</strong><a class="headerlink" href="#fundamentals" title="Permanent link">&para;</a></h2>
+<h1 id="plsql-syntax-reference-guide-with-definitions">PL/SQL Syntax Reference Guide with Definitions<a class="headerlink" href="#plsql-syntax-reference-guide-with-definitions" title="Permanent link">&para;</a></h1>
+<h2 id="1-basic-block-structure">1. BASIC BLOCK STRUCTURE<a class="headerlink" href="#1-basic-block-structure" title="Permanent link">&para;</a></h2>
 <table>
 <thead>
 <tr>
-<th>Concept</th>
+<th>Component</th>
 <th>Definition</th>
+<th>Syntax</th>
+<th>When to Use</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td><strong>PL/SQL</strong></td>
-<td>Procedural Language extension to SQL developed by Oracle. Combines SQL with procedural programming features like loops, conditions, and exception handling.</td>
+<td><strong>Anonymous Block</strong></td>
+<td>Basic unit of PL/SQL code without a name, consists of optional DECLARE, mandatory BEGIN, optional EXCEPTION, and mandatory END sections</td>
+<td><code>sql&lt;br&gt;DECLARE&lt;br&gt;  -- variable declarations&lt;br&gt;BEGIN&lt;br&gt;  -- executable statements&lt;br&gt;EXCEPTION&lt;br&gt;  -- exception handlers&lt;br&gt;END;&lt;br&gt;/</code></td>
+<td>For simple one-time scripts, testing code, or small tasks that don't need to be stored</td>
 </tr>
 <tr>
-<td><strong>Block Structure</strong></td>
-<td>Basic unit of PL/SQL code consisting of DECLARE (optional), BEGIN (mandatory), EXCEPTION (optional), and END (mandatory) sections.</td>
+<td><strong>Named Block</strong></td>
+<td>PL/SQL block with a label for identification and reference</td>
+<td><code>sql&lt;br&gt;&lt;&lt;block_name&gt;&gt;&lt;br&gt;DECLARE&lt;br&gt;  -- declarations&lt;br&gt;BEGIN&lt;br&gt;  -- statements&lt;br&gt;END block_name;</code></td>
+<td>When you need to reference the block in GOTO statements or improve code readability</td>
 </tr>
 <tr>
 <td><strong>Scope</strong></td>
-<td>Visibility and accessibility of variables and other identifiers within different parts of the program.</td>
+<td>The visibility and accessibility of variables within different parts of the program</td>
+<td>Variables declared in outer blocks are visible in inner blocks</td>
+<td>Understanding where variables can be accessed and modified</td>
 </tr>
 <tr>
 <td><strong>Lexical Scoping</strong></td>
-<td>Rule that determines variable visibility based on where variables are declared in nested blocks.</td>
-</tr>
-<tr>
-<td><strong>Label</strong></td>
-<td>Named point in the code that can be referenced by GOTO statements or to name loops.</td>
+<td>Rule determining variable visibility based on where variables are declared in nested blocks</td>
+<td>Inner blocks can access outer block variables, but not vice versa</td>
+<td>Preventing naming conflicts and controlling variable access</td>
 </tr>
 </tbody>
 </table>
-<h2 id="variables-and-datatypes"><strong>VARIABLES AND DATATYPES</strong><a class="headerlink" href="#variables-and-datatypes" title="Permanent link">&para;</a></h2>
+<h2 id="2-variables-and-datatypes">2. VARIABLES AND DATATYPES<a class="headerlink" href="#2-variables-and-datatypes" title="Permanent link">&para;</a></h2>
 <table>
 <thead>
 <tr>
 <th>Concept</th>
 <th>Definition</th>
+<th>Syntax</th>
+<th>When to Use</th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td><strong>Variable</strong></td>
-<td>Named storage location that can hold data values. Must be declared with a specific datatype before use.</td>
+<td>Named storage location that can hold data values, must be declared with a specific datatype</td>
+<td><code>sql&lt;br&gt;variable_name datatype [NOT NULL] [:= initial_value];&lt;br&gt;-- Examples:&lt;br&gt;v_name VARCHAR2(50);&lt;br&gt;v_salary NUMBER(8,2) := 5000;&lt;br&gt;v_hire_date DATE NOT NULL := SYSDATE;</code></td>
+<td>To store values that can change during program execution</td>
 </tr>
 <tr>
 <td><strong>Constant</strong></td>
-<td>A variable whose value cannot be changed once assigned. Declared using the CONSTANT keyword.</td>
+<td>A variable whose value cannot be changed once assigned during declaration</td>
+<td><code>sql&lt;br&gt;constant_name CONSTANT datatype := value;&lt;br&gt;-- Example:&lt;br&gt;c_tax_rate CONSTANT NUMBER := 0.08;</code></td>
+<td>For values that should never change (tax rates, limits, mathematical constants)</td>
 </tr>
 <tr>
 <td><strong>Datatype</strong></td>
-<td>Defines the type of data that can be stored in a variable (NUMBER, VARCHAR2, DATE, BOOLEAN, etc.).</td>
+<td>Defines the type of data that can be stored in a variable (NUMBER, VARCHAR2, DATE, BOOLEAN, etc.)</td>
+<td><code>sql&lt;br&gt;-- Scalar datatypes:&lt;br&gt;v_num NUMBER(10,2);&lt;br&gt;v_text VARCHAR2(100);&lt;br&gt;v_date DATE;&lt;br&gt;v_flag BOOLEAN;</code></td>
+<td>To ensure proper data storage and operations on variables</td>
 </tr>
 <tr>
-<td><strong>%TYPE</strong></td>
-<td>Attribute that allows a variable to inherit the datatype of a database column or another variable.</td>
+<td><strong>%TYPE Attribute</strong></td>
+<td>Allows a variable to inherit the datatype of a database column or another variable</td>
+<td><code>sql&lt;br&gt;v_emp_name employees.first_name%TYPE;&lt;br&gt;v_copy_var v_original_var%TYPE;</code></td>
+<td>To ensure variable matches column datatype, maintains consistency when table structure changes</td>
 </tr>
 <tr>
-<td><strong>%ROWTYPE</strong></td>
-<td>Attribute that allows a variable to store an entire row from a table or cursor with the same structure.</td>
+<td><strong>%ROWTYPE Attribute</strong></td>
+<td>Allows a variable to store an entire row from a table or cursor with the same structure</td>
+<td><code>sql&lt;br&gt;v_emp_record employees%ROWTYPE;&lt;br&gt;v_cursor_rec cursor_name%ROWTYPE;</code></td>
+<td>To store complete row data, useful for copying/processing entire records efficiently</td>
 </tr>
 <tr>
 <td><strong>Record</strong></td>
-<td>Composite datatype that groups related data items together, similar to a row in a table.</td>
+<td>Composite datatype that groups related data items together, similar to a row in a table</td>
+<td><code>sql&lt;br&gt;TYPE emp_record_type IS RECORD (&lt;br&gt;  name VARCHAR2(50),&lt;br&gt;  salary NUMBER,&lt;br&gt;  hire_date DATE&lt;br&gt;);&lt;br&gt;v_emp emp_record_type;</code></td>
+<td>To group related data together when you need a custom structure different from existing tables</td>
 </tr>
 </tbody>
 </table>
-<h2 id="cursors"><strong>CURSORS</strong><a class="headerlink" href="#cursors" title="Permanent link">&para;</a></h2>
+<h2 id="3-control-structures">3. CONTROL STRUCTURES<a class="headerlink" href="#3-control-structures" title="Permanent link">&para;</a></h2>
 <table>
 <thead>
 <tr>
-<th>Concept</th>
+<th>Structure</th>
 <th>Definition</th>
+<th>Syntax</th>
+<th>When to Use</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>IF-THEN-ELSE</strong></td>
+<td>Conditional logic structure that executes different code blocks based on conditions</td>
+<td><code>sql&lt;br&gt;IF condition THEN&lt;br&gt;  statements;&lt;br&gt;ELSIF condition THEN&lt;br&gt;  statements;&lt;br&gt;ELSE&lt;br&gt;  statements;&lt;br&gt;END IF;</code></td>
+<td>For conditional logic with multiple branches or complex decision making</td>
+</tr>
+<tr>
+<td><strong>CASE Statement</strong></td>
+<td>Control structure that selects one of many code blocks to execute based on expression value</td>
+<td><code>sql&lt;br&gt;CASE variable&lt;br&gt;  WHEN value1 THEN statement1;&lt;br&gt;  WHEN value2 THEN statement2;&lt;br&gt;  ELSE statement3;&lt;br&gt;END CASE;&lt;br&gt;-- Searched CASE:&lt;br&gt;CASE&lt;br&gt;  WHEN condition1 THEN statement1;&lt;br&gt;  WHEN condition2 THEN statement2;&lt;br&gt;END CASE;</code></td>
+<td>For multiple value-based conditions, cleaner and more readable than multiple IF statements</td>
+</tr>
+<tr>
+<td><strong>Simple LOOP</strong></td>
+<td>Basic loop structure that repeats until an EXIT condition is met</td>
+<td><code>sql&lt;br&gt;LOOP&lt;br&gt;  statements;&lt;br&gt;  EXIT WHEN condition;&lt;br&gt;END LOOP;</code></td>
+<td>When you need at least one execution, or have complex exit conditions in the middle of loop</td>
+</tr>
+<tr>
+<td><strong>WHILE LOOP</strong></td>
+<td>Loop that continues as long as a condition remains true, condition checked before each iteration</td>
+<td><code>sql&lt;br&gt;WHILE condition LOOP&lt;br&gt;  statements;&lt;br&gt;END LOOP;</code></td>
+<td>When condition needs to be checked before each iteration, may execute zero times</td>
+</tr>
+<tr>
+<td><strong>FOR LOOP (Numeric)</strong></td>
+<td>Loop that iterates a predetermined number of times using a counter variable</td>
+<td><code>sql&lt;br&gt;FOR i IN 1..10 LOOP&lt;br&gt;  statements;&lt;br&gt;END LOOP;&lt;br&gt;-- Reverse:&lt;br&gt;FOR i IN REVERSE 1..10 LOOP&lt;br&gt;  statements;&lt;br&gt;END LOOP;</code></td>
+<td>For known number of iterations, automatic counter management</td>
+</tr>
+<tr>
+<td><strong>FOR LOOP (Cursor)</strong></td>
+<td>Simplified loop for processing cursor data, automatically handles cursor operations</td>
+<td><code>sql&lt;br&gt;FOR rec IN cursor_name LOOP&lt;br&gt;  -- rec.column_name&lt;br&gt;  statements;&lt;br&gt;END LOOP;&lt;br&gt;-- Implicit cursor:&lt;br&gt;FOR rec IN (SELECT * FROM table) LOOP&lt;br&gt;  statements;&lt;br&gt;END LOOP;</code></td>
+<td>To process all rows from a cursor automatically without explicit open/fetch/close</td>
+</tr>
+<tr>
+<td><strong>GOTO</strong></td>
+<td>Statement that transfers control unconditionally to a labeled statement</td>
+<td><code>sql&lt;br&gt;&lt;&lt;label_name&gt;&gt;&lt;br&gt;statements;&lt;br&gt;GOTO label_name;</code></td>
+<td>Generally discouraged, only for error handling or breaking out of nested loops</td>
+</tr>
+</tbody>
+</table>
+<h2 id="4-cursors">4. CURSORS<a class="headerlink" href="#4-cursors" title="Permanent link">&para;</a></h2>
+<table>
+<thead>
+<tr>
+<th>Cursor Type</th>
+<th>Definition</th>
+<th>Syntax</th>
+<th>When to Use</th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td><strong>Cursor</strong></td>
-<td>Pointer to a context area that holds the result set of a SQL query. Allows row-by-row processing of query results.</td>
+<td>Pointer to a context area that holds the result set of a SQL query, allows row-by-row processing</td>
+<td>Memory area for SQL query results</td>
+<td>When processing query results row by row instead of all at once</td>
 </tr>
 <tr>
 <td><strong>Implicit Cursor</strong></td>
-<td>Automatically created cursor for SQL DML statements (INSERT, UPDATE, DELETE, SELECT INTO).</td>
+<td>Automatically created cursor for SQL DML statements, Oracle manages it automatically</td>
+<td><code>sql&lt;br&gt;SELECT column INTO variable FROM table&lt;br&gt;WHERE condition;&lt;br&gt;-- Cursor attributes:&lt;br&gt;SQL%FOUND, SQL%NOTFOUND&lt;br&gt;SQL%ROWCOUNT, SQL%ISOPEN</code></td>
+<td>For single-row SELECT INTO statements, DML operations (INSERT/UPDATE/DELETE)</td>
 </tr>
 <tr>
 <td><strong>Explicit Cursor</strong></td>
-<td>User-defined cursor that must be declared, opened, fetched from, and closed manually.</td>
+<td>User-defined cursor that must be declared, opened, fetched from, and closed manually</td>
+<td><code>sql&lt;br&gt;DECLARE&lt;br&gt;  CURSOR c_emp IS &lt;br&gt;    SELECT * FROM employees WHERE dept_id = 10;&lt;br&gt;  v_emp employees%ROWTYPE;&lt;br&gt;BEGIN&lt;br&gt;  OPEN c_emp;&lt;br&gt;  LOOP&lt;br&gt;    FETCH c_emp INTO v_emp;&lt;br&gt;    EXIT WHEN c_emp%NOTFOUND;&lt;br&gt;    -- process v_emp&lt;br&gt;  END LOOP;&lt;br&gt;  CLOSE c_emp;&lt;br&gt;END;</code></td>
+<td>When processing multiple rows, need cursor attributes, complex result sets, or want control over cursor lifecycle</td>
+</tr>
+<tr>
+<td><strong>Cursor with Parameters</strong></td>
+<td>Cursor that accepts input parameters to make it reusable with different values</td>
+<td><code>sql&lt;br&gt;CURSOR c_emp(p_dept_id NUMBER, p_salary NUMBER) IS&lt;br&gt;  SELECT * FROM employees&lt;br&gt;  WHERE department_id = p_dept_id&lt;br&gt;  AND salary &gt; p_salary;&lt;br&gt;-- Usage:&lt;br&gt;OPEN c_emp(10, 5000);</code></td>
+<td>To make cursors reusable with different filter values, improving code modularity</td>
+</tr>
+<tr>
+<td><strong>REF CURSOR</strong></td>
+<td>Cursor variable that can point to different result sets at runtime, providing flexibility</td>
+<td><code>sql&lt;br&gt;TYPE ref_cursor IS REF CURSOR;&lt;br&gt;v_cursor ref_cursor;&lt;br&gt;-- Strongly typed:&lt;br&gt;TYPE emp_cursor IS REF CURSOR RETURN employees%ROWTYPE;&lt;br&gt;v_emp_cursor emp_cursor;</code></td>
+<td>For dynamic cursors, returning cursors from functions, or when cursor structure determined at runtime</td>
 </tr>
 <tr>
 <td><strong>Cursor Attributes</strong></td>
-<td>Properties of cursors like %FOUND, %NOTFOUND, %ROWCOUNT, %ISOPEN that provide information about cursor status.</td>
-</tr>
-<tr>
-<td><strong>FOR Loop Cursor</strong></td>
-<td>Simplified way to process cursor data using FOR loop syntax that automatically handles cursor operations.</td>
-</tr>
-<tr>
-<td><strong>SQL%</strong></td>
-<td>Implicit cursor attributes that provide information about the last SQL statement executed.</td>
-</tr>
-<tr>
-<td><strong>Ref Cursor</strong></td>
-<td>Cursor variable that can point to different result sets at runtime.</td>
+<td>Properties that provide information about cursor status and processing results</td>
+<td><code>sql&lt;br&gt;cursor_name%FOUND    -- TRUE if last fetch returned a row&lt;br&gt;cursor_name%NOTFOUND -- TRUE if last fetch found no row&lt;br&gt;cursor_name%ROWCOUNT -- Number of rows fetched so far&lt;br&gt;cursor_name%ISOPEN   -- TRUE if cursor is open</code></td>
+<td>To check cursor status, control loop processing, and get information about fetch operations</td>
 </tr>
 </tbody>
 </table>
-<h2 id="control-structures"><strong>CONTROL STRUCTURES</strong><a class="headerlink" href="#control-structures" title="Permanent link">&para;</a></h2>
+<h2 id="5-exception-handling">5. EXCEPTION HANDLING<a class="headerlink" href="#5-exception-handling" title="Permanent link">&para;</a></h2>
 <table>
 <thead>
 <tr>
-<th>Concept</th>
+<th>Exception Type</th>
 <th>Definition</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><strong>Conditional Logic</strong></td>
-<td>Control structures like IF-THEN-ELSE and CASE statements that execute code based on conditions.</td>
-</tr>
-<tr>
-<td><strong>Loop</strong></td>
-<td>Control structure that repeats a block of code. Types include LOOP, WHILE, and FOR loops.</td>
-</tr>
-<tr>
-<td><strong>GOTO</strong></td>
-<td>Statement that transfers control to a labeled statement, though generally discouraged.</td>
-</tr>
-</tbody>
-</table>
-<h2 id="exception-handling"><strong>EXCEPTION HANDLING</strong><a class="headerlink" href="#exception-handling" title="Permanent link">&para;</a></h2>
-<table>
-<thead>
-<tr>
-<th>Concept</th>
-<th>Definition</th>
+<th>Syntax</th>
+<th>When to Use</th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td><strong>Exception</strong></td>
-<td>Runtime error that occurs during program execution. Can be predefined, user-defined, or pragma exceptions.</td>
+<td>Runtime error that occurs during program execution, can be predefined, user-defined, or pragma exceptions</td>
+<td>Abnormal condition that disrupts normal program flow</td>
+<td>To handle errors gracefully instead of program termination</td>
 </tr>
 <tr>
 <td><strong>Exception Handling</strong></td>
-<td>Mechanism to catch and handle errors using EXCEPTION block with WHEN clauses.</td>
+<td>Mechanism to catch and handle errors using EXCEPTION block with WHEN clauses</td>
+<td><code>sql&lt;br&gt;BEGIN&lt;br&gt;  statements;&lt;br&gt;EXCEPTION&lt;br&gt;  WHEN exception_name THEN&lt;br&gt;    handle_exception;&lt;br&gt;  WHEN OTHERS THEN&lt;br&gt;    handle_any_exception;&lt;br&gt;END;</code></td>
+<td>To handle predictable errors gracefully and provide meaningful error messages</td>
 </tr>
 <tr>
-<td><strong>Predefined Exception</strong></td>
-<td>Built-in exceptions like NO_DATA_FOUND, TOO_MANY_ROWS, ZERO_DIVIDE provided by Oracle.</td>
+<td><strong>Predefined Exceptions</strong></td>
+<td>Built-in exceptions provided by Oracle for common error conditions</td>
+<td><code>sql&lt;br&gt;EXCEPTION&lt;br&gt;  WHEN NO_DATA_FOUND THEN&lt;br&gt;    -- SELECT INTO found no rows&lt;br&gt;  WHEN TOO_MANY_ROWS THEN&lt;br&gt;    -- SELECT INTO found multiple rows&lt;br&gt;  WHEN ZERO_DIVIDE THEN&lt;br&gt;    -- Division by zero attempted&lt;br&gt;  WHEN VALUE_ERROR THEN&lt;br&gt;    -- Conversion/constraint error&lt;br&gt;  WHEN DUP_VAL_ON_INDEX THEN&lt;br&gt;    -- Unique constraint violation&lt;br&gt;END;</code></td>
+<td>For handling common Oracle database errors with meaningful names</td>
 </tr>
 <tr>
-<td><strong>User-defined Exception</strong></td>
-<td>Custom exceptions declared by the programmer using EXCEPTION datatype.</td>
+<td><strong>User-Defined Exception</strong></td>
+<td>Custom exceptions declared by programmer for business logic errors</td>
+<td><code>sql&lt;br&gt;DECLARE&lt;br&gt;  invalid_salary EXCEPTION;&lt;br&gt;  negative_balance EXCEPTION;&lt;br&gt;BEGIN&lt;br&gt;  IF salary &lt; 0 THEN&lt;br&gt;    RAISE invalid_salary;&lt;br&gt;  END IF;&lt;br&gt;EXCEPTION&lt;br&gt;  WHEN invalid_salary THEN&lt;br&gt;    DBMS_OUTPUT.PUT_LINE('Salary cannot be negative');&lt;br&gt;END;</code></td>
+<td>For business rule violations, custom validation errors, or application-specific conditions</td>
 </tr>
 <tr>
-<td><strong>RAISE</strong></td>
-<td>Statement used to explicitly raise an exception in the program.</td>
+<td><strong>RAISE Statement</strong></td>
+<td>Explicitly raises an exception in the program, can re-raise current exception</td>
+<td><code>sql&lt;br&gt;RAISE exception_name;&lt;br&gt;RAISE; -- re-raises current exception</code></td>
+<td>To trigger exceptions based on business logic or to propagate exceptions to calling programs</td>
+</tr>
+<tr>
+<td><strong>PRAGMA EXCEPTION_INIT</strong></td>
+<td>Associates a user-defined exception name with a specific Oracle error number</td>
+<td><code>sql&lt;br&gt;DECLARE&lt;br&gt;  duplicate_value EXCEPTION;&lt;br&gt;  PRAGMA EXCEPTION_INIT(duplicate_value, -1);&lt;br&gt;BEGIN&lt;br&gt;  -- statements that might cause ORA-00001&lt;br&gt;EXCEPTION&lt;br&gt;  WHEN duplicate_value THEN&lt;br&gt;    DBMS_OUTPUT.PUT_LINE('Record already exists');&lt;br&gt;END;</code></td>
+<td>To give meaningful names to Oracle error numbers for better code readability</td>
 </tr>
 </tbody>
 </table>
-<h2 id="subprograms"><strong>SUBPROGRAMS</strong><a class="headerlink" href="#subprograms" title="Permanent link">&para;</a></h2>
+<h2 id="6-subprograms">6. SUBPROGRAMS<a class="headerlink" href="#6-subprograms" title="Permanent link">&para;</a></h2>
 <table>
 <thead>
 <tr>
-<th>Concept</th>
+<th>Type</th>
 <th>Definition</th>
+<th>Syntax</th>
+<th>When to Use</th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td><strong>Procedure</strong></td>
-<td>Named PL/SQL block that performs specific tasks. Can accept parameters and be called from other programs.</td>
+<td>Named PL/SQL block that performs specific tasks, can accept parameters but doesn't return a value</td>
+<td><code>sql&lt;br&gt;CREATE OR REPLACE PROCEDURE proc_name(&lt;br&gt;  p_param1 IN VARCHAR2,&lt;br&gt;  p_param2 OUT NUMBER,&lt;br&gt;  p_param3 IN OUT DATE&lt;br&gt;) IS&lt;br&gt;  -- local declarations&lt;br&gt;BEGIN&lt;br&gt;  -- procedure body&lt;br&gt;  p_param2 := 100; -- setting OUT parameter&lt;br&gt;END proc_name;&lt;br&gt;-- Calling:&lt;br&gt;EXECUTE proc_name('value', v_result, v_date);</code></td>
+<td>For reusable code that performs actions, may return multiple values through OUT parameters</td>
 </tr>
 <tr>
 <td><strong>Function</strong></td>
-<td>Named PL/SQL block that performs calculations and returns a single value. Must have a RETURN statement.</td>
+<td>Named PL/SQL block that performs calculations and returns a single value through RETURN statement</td>
+<td><code>sql&lt;br&gt;CREATE OR REPLACE FUNCTION func_name(&lt;br&gt;  p_param1 VARCHAR2,&lt;br&gt;  p_param2 NUMBER DEFAULT 0&lt;br&gt;) RETURN NUMBER IS&lt;br&gt;  v_result NUMBER;&lt;br&gt;BEGIN&lt;br&gt;  -- function body&lt;br&gt;  v_result := LENGTH(p_param1) + p_param2;&lt;br&gt;  RETURN v_result;&lt;br&gt;END func_name;&lt;br&gt;-- Calling:&lt;br&gt;v_length := func_name('Hello', 10);</code></td>
+<td>For reusable code that calculates and returns a single value, can be used in SQL statements</td>
 </tr>
 <tr>
-<td><strong>Parameter</strong></td>
-<td>Variable used to pass values into or out of procedures and functions. Can be IN, OUT, or IN OUT.</td>
+<td><strong>Parameters</strong></td>
+<td>Variables used to pass values into or out of procedures and functions</td>
+<td><code>sql&lt;br&gt;-- IN: passes value to subprogram (default)&lt;br&gt;-- OUT: returns value from subprogram&lt;br&gt;-- IN OUT: passes value in and returns modified value&lt;br&gt;PROCEDURE example(&lt;br&gt;  p_input IN VARCHAR2,        -- input only&lt;br&gt;  p_output OUT NUMBER,        -- output only&lt;br&gt;  p_both IN OUT DATE          -- input and output&lt;br&gt;)</code></td>
+<td>To make subprograms flexible and reusable with different data values</td>
+</tr>
+<tr>
+<td><strong>Local Subprogram</strong></td>
+<td>Procedure or function defined within another PL/SQL block, only accessible within that block</td>
+<td><code>sql&lt;br&gt;DECLARE&lt;br&gt;  PROCEDURE local_proc(p_val NUMBER) IS&lt;br&gt;  BEGIN&lt;br&gt;    DBMS_OUTPUT.PUT_LINE('Value: ' || p_val);&lt;br&gt;  END;&lt;br&gt;  &lt;br&gt;  FUNCTION local_func RETURN NUMBER IS&lt;br&gt;  BEGIN&lt;br&gt;    RETURN 42;&lt;br&gt;  END;&lt;br&gt;BEGIN&lt;br&gt;  local_proc(local_func);&lt;br&gt;END;</code></td>
+<td>For code reuse within a single block only, when functionality doesn't need global access</td>
 </tr>
 <tr>
 <td><strong>Overloading</strong></td>
-<td>Feature that allows multiple subprograms with the same name but different parameter signatures.</td>
+<td>Feature allowing multiple subprograms with same name but different parameter signatures</td>
+<td><code>sql&lt;br&gt;CREATE OR REPLACE PACKAGE pkg IS&lt;br&gt;  PROCEDURE process_data(p_id NUMBER);&lt;br&gt;  PROCEDURE process_data(p_name VARCHAR2);&lt;br&gt;  PROCEDURE process_data(p_id NUMBER, p_name VARCHAR2);&lt;br&gt;END pkg;</code></td>
+<td>To provide different ways to call the same logical operation with different parameter types</td>
 </tr>
 <tr>
 <td><strong>Forward Declaration</strong></td>
-<td>Declaration of a subprogram before its actual definition, used to resolve mutual dependencies.</td>
-</tr>
-<tr>
-<td><strong>Recursion</strong></td>
-<td>Programming technique where a subprogram calls itself to solve a problem.</td>
+<td>Declaration of a subprogram before its actual definition, used to resolve mutual dependencies</td>
+<td><code>sql&lt;br&gt;DECLARE&lt;br&gt;  -- Forward declaration&lt;br&gt;  PROCEDURE proc_b(p_val NUMBER);&lt;br&gt;  &lt;br&gt;  PROCEDURE proc_a(p_val NUMBER) IS&lt;br&gt;  BEGIN&lt;br&gt;    IF p_val &gt; 0 THEN&lt;br&gt;      proc_b(p_val - 1);&lt;br&gt;    END IF;&lt;br&gt;  END;&lt;br&gt;  &lt;br&gt;  -- Actual definition&lt;br&gt;  PROCEDURE proc_b(p_val NUMBER) IS&lt;br&gt;  BEGIN&lt;br&gt;    proc_a(p_val);&lt;br&gt;  END;&lt;br&gt;BEGIN&lt;br&gt;  proc_a(5);&lt;br&gt;END;</code></td>
+<td>When two subprograms need to call each other (mutual recursion)</td>
 </tr>
 </tbody>
 </table>
-<h2 id="packages"><strong>PACKAGES</strong><a class="headerlink" href="#packages" title="Permanent link">&para;</a></h2>
+<h2 id="7-packages">7. PACKAGES<a class="headerlink" href="#7-packages" title="Permanent link">&para;</a></h2>
 <table>
 <thead>
 <tr>
-<th>Concept</th>
+<th>Component</th>
 <th>Definition</th>
+<th>Syntax</th>
+<th>When to Use</th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td><strong>Package</strong></td>
-<td>Container that groups related procedures, functions, variables, and other constructs together.</td>
+<td>Container that groups related procedures, functions, variables, and other constructs together</td>
+<td>Modular programming unit that encapsulates related functionality</td>
+<td>To organize code logically, provide data encapsulation, and improve performance</td>
 </tr>
 <tr>
 <td><strong>Package Specification</strong></td>
-<td>Public interface of a package that declares what can be accessed from outside the package.</td>
+<td>Public interface of a package that declares what can be accessed from outside the package</td>
+<td><code>sql&lt;br&gt;CREATE OR REPLACE PACKAGE pkg_employee IS&lt;br&gt;  -- Public constants&lt;br&gt;  c_max_salary CONSTANT NUMBER := 100000;&lt;br&gt;  &lt;br&gt;  -- Public variables&lt;br&gt;  g_total_employees NUMBER;&lt;br&gt;  &lt;br&gt;  -- Public procedures and functions&lt;br&gt;  PROCEDURE hire_employee(p_name VARCHAR2);&lt;br&gt;  FUNCTION get_employee_count RETURN NUMBER;&lt;br&gt;  &lt;br&gt;  -- Public exception&lt;br&gt;  invalid_employee EXCEPTION;&lt;br&gt;END pkg_employee;</code></td>
+<td>To define public interface, group related functionality, hide implementation details</td>
 </tr>
 <tr>
 <td><strong>Package Body</strong></td>
-<td>Implementation of the package that contains the actual code for procedures and functions.</td>
+<td>Implementation of the package containing actual code for procedures and functions</td>
+<td><code>sql&lt;br&gt;CREATE OR REPLACE PACKAGE BODY pkg_employee IS&lt;br&gt;  -- Private variables&lt;br&gt;  g_last_hire_date DATE;&lt;br&gt;  &lt;br&gt;  -- Private procedure&lt;br&gt;  PROCEDURE log_action(p_action VARCHAR2) IS&lt;br&gt;  BEGIN&lt;br&gt;    INSERT INTO audit_log VALUES (p_action, SYSDATE);&lt;br&gt;  END;&lt;br&gt;  &lt;br&gt;  -- Public procedure implementation&lt;br&gt;  PROCEDURE hire_employee(p_name VARCHAR2) IS&lt;br&gt;  BEGIN&lt;br&gt;    INSERT INTO employees (name) VALUES (p_name);&lt;br&gt;    g_total_employees := g_total_employees + 1;&lt;br&gt;    log_action('HIRED: ' || p_name);&lt;br&gt;  END;&lt;br&gt;  &lt;br&gt;  -- Public function implementation&lt;br&gt;  FUNCTION get_employee_count RETURN NUMBER IS&lt;br&gt;  BEGIN&lt;br&gt;    RETURN g_total_employees;&lt;br&gt;  END;&lt;br&gt;BEGIN&lt;br&gt;  -- Package initialization&lt;br&gt;  SELECT COUNT(*) INTO g_total_employees FROM employees;&lt;br&gt;END pkg_employee;</code></td>
+<td>To implement the functionality declared in package specification</td>
 </tr>
 </tbody>
 </table>
-<h2 id="triggers"><strong>TRIGGERS</strong><a class="headerlink" href="#triggers" title="Permanent link">&para;</a></h2>
+<h2 id="8-triggers">8. TRIGGERS<a class="headerlink" href="#8-triggers" title="Permanent link">&para;</a></h2>
 <table>
 <thead>
 <tr>
-<th>Concept</th>
+<th>Type</th>
 <th>Definition</th>
+<th>Syntax</th>
+<th>When to Use</th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td><strong>Trigger</strong></td>
-<td>Special PL/SQL block that automatically executes in response to specific database events.</td>
+<td>Special PL/SQL block that automatically executes in response to specific database events</td>
+<td>Stored program that runs automatically when certain events occur</td>
+<td>For automatic data validation, auditing, logging, or enforcing business rules</td>
 </tr>
 <tr>
 <td><strong>DML Trigger</strong></td>
-<td>Trigger that fires in response to DML operations (INSERT, UPDATE, DELETE) on a table.</td>
+<td>Trigger that fires in response to DML operations (INSERT, UPDATE, DELETE) on a table</td>
+<td><code>sql&lt;br&gt;CREATE OR REPLACE TRIGGER trg_emp_audit&lt;br&gt;BEFORE UPDATE ON employees&lt;br&gt;FOR EACH ROW&lt;br&gt;BEGIN&lt;br&gt;  INSERT INTO emp_audit (&lt;br&gt;    emp_id, old_salary, new_salary, change_date&lt;br&gt;  ) VALUES (&lt;br&gt;    :NEW.employee_id, :OLD.salary, :NEW.salary, SYSDATE&lt;br&gt;  );&lt;br&gt;END;&lt;br&gt;-- Timing: BEFORE, AFTER, INSTEAD OF&lt;br&gt;-- Events: INSERT, UPDATE, DELETE&lt;br&gt;-- Level: FOR EACH ROW, statement level</code></td>
+<td>For auditing data changes, automatic column population, data validation before changes</td>
 </tr>
 <tr>
 <td><strong>DDL Trigger</strong></td>
-<td>Trigger that fires in response to DDL operations (CREATE, ALTER, DROP) on database objects.</td>
+<td>Trigger that fires in response to DDL operations (CREATE, ALTER, DROP) on database objects</td>
+<td><code>sql&lt;br&gt;CREATE OR REPLACE TRIGGER trg_ddl_audit&lt;br&gt;AFTER CREATE OR ALTER OR DROP&lt;br&gt;ON SCHEMA&lt;br&gt;BEGIN&lt;br&gt;  INSERT INTO ddl_audit (&lt;br&gt;    object_name, object_type, operation, change_date&lt;br&gt;  ) VALUES (&lt;br&gt;    ora_dict_obj_name, ora_dict_obj_type,&lt;br&gt;    ora_sysevent, SYSDATE&lt;br&gt;  );&lt;br&gt;END;</code></td>
+<td>For tracking schema changes, preventing unauthorized DDL operations</td>
 </tr>
 <tr>
 <td><strong>System Trigger</strong></td>
-<td>Trigger that fires in response to database system events like startup, shutdown, or logon.</td>
+<td>Trigger that fires in response to database system events like startup, shutdown, logon</td>
+<td><code>sql&lt;br&gt;CREATE OR REPLACE TRIGGER trg_logon_audit&lt;br&gt;AFTER LOGON ON SCHEMA&lt;br&gt;BEGIN&lt;br&gt;  INSERT INTO user_sessions (&lt;br&gt;    username, logon_time, session_id&lt;br&gt;  ) VALUES (&lt;br&gt;    USER, SYSDATE, USERENV('SESSIONID')&lt;br&gt;  );&lt;br&gt;END;</code></td>
+<td>For user session tracking, security auditing, system monitoring</td>
 </tr>
 <tr>
 <td><strong>OLD and NEW</strong></td>
-<td>Correlation names used in DML triggers to reference old and new values of columns.</td>
+<td>Correlation names used in DML triggers to reference old and new values of columns</td>
+<td><code>sql&lt;br&gt;-- In row-level DML triggers:&lt;br&gt;:OLD.column_name  -- value before change&lt;br&gt;:NEW.column_name  -- value after change&lt;br&gt;-- Example:&lt;br&gt;IF :NEW.salary &gt; :OLD.salary * 1.5 THEN&lt;br&gt;  RAISE_APPLICATION_ERROR(-20001, 'Salary increase too large');&lt;br&gt;END IF;</code></td>
+<td>To compare old and new values during data modifications</td>
 </tr>
 <tr>
 <td><strong>Mutating Table</strong></td>
-<td>Table that is being modified by a DML statement when a trigger tries to query or modify it.</td>
+<td>Table that is being modified by a DML statement when a trigger tries to query or modify it</td>
+<td>Error condition that prevents triggers from querying the table being modified</td>
+<td>Understanding why certain operations fail in triggers, designing workarounds</td>
 </tr>
 </tbody>
 </table>
-<h2 id="collections"><strong>COLLECTIONS</strong><a class="headerlink" href="#collections" title="Permanent link">&para;</a></h2>
+<h2 id="9-collections">9. COLLECTIONS<a class="headerlink" href="#9-collections" title="Permanent link">&para;</a></h2>
 <table>
 <thead>
 <tr>
-<th>Concept</th>
+<th>Type</th>
 <th>Definition</th>
+<th>Syntax</th>
+<th>When to Use</th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td><strong>Collection</strong></td>
-<td>Ordered group of elements of the same datatype. Types include VARRAY, Nested Table, and Associative Array.</td>
+<td>Ordered group of elements of the same datatype, types include VARRAY, Nested Table, and Associative Array</td>
+<td>Data structure for storing multiple values of same type</td>
+<td>When working with sets of related data, bulk operations, or arrays</td>
 </tr>
 <tr>
 <td><strong>VARRAY</strong></td>
-<td>Variable-size array with a maximum limit on the number of elements.</td>
+<td>Variable-size array with a maximum limit on the number of elements, stored in database</td>
+<td><code>sql&lt;br&gt;-- Declaration:&lt;br&gt;TYPE name_array IS VARRAY(10) OF VARCHAR2(50);&lt;br&gt;v_names name_array;&lt;br&gt;-- Usage:&lt;br&gt;v_names := name_array('John', 'Jane', 'Bob');&lt;br&gt;v_names.EXTEND; -- add space&lt;br&gt;v_names(4) := 'Alice';&lt;br&gt;-- Methods: COUNT, LIMIT, EXISTS, EXTEND, TRIM</code></td>
+<td>For small, fixed-maximum collections that need to be stored in database tables</td>
 </tr>
 <tr>
 <td><strong>Nested Table</strong></td>
-<td>Unbounded, ordered collection of elements that can be stored in database tables.</td>
+<td>Unbounded, ordered collection of elements that can be stored in database tables</td>
+<td><code>sql&lt;br&gt;-- Declaration:&lt;br&gt;TYPE number_table IS TABLE OF NUMBER;&lt;br&gt;v_numbers number_table;&lt;br&gt;-- Usage:&lt;br&gt;v_numbers := number_table(1, 2, 3, 4, 5);&lt;br&gt;v_numbers.EXTEND;&lt;br&gt;v_numbers(6) := 10;&lt;br&gt;-- Methods: COUNT, EXISTS, EXTEND, TRIM, DELETE</code></td>
+<td>For large collections with no size limit, when you need to store in database</td>
 </tr>
 <tr>
 <td><strong>Associative Array</strong></td>
-<td>Index-by table that uses string or integer indexes to access elements.</td>
+<td>Index-by table that uses string or integer indexes to access elements</td>
+<td><code>sql&lt;br&gt;-- Declaration:&lt;br&gt;TYPE emp_array IS TABLE OF employees%ROWTYPE&lt;br&gt;  INDEX BY PLS_INTEGER;&lt;br&gt;TYPE salary_array IS TABLE OF NUMBER&lt;br&gt;  INDEX BY VARCHAR2(50);&lt;br&gt;-- Usage:&lt;br&gt;v_emps emp_array;&lt;br&gt;v_salaries salary_array;&lt;br&gt;v_emps(1) := employee_record;&lt;br&gt;v_salaries('SMITH') := 5000;</code></td>
+<td>For in-memory processing, when you need key-value pairs, or sparse arrays</td>
 </tr>
 </tbody>
 </table>
-<h2 id="bulk-operations"><strong>BULK OPERATIONS</strong><a class="headerlink" href="#bulk-operations" title="Permanent link">&para;</a></h2>
+<h2 id="10-bulk-operations">10. BULK OPERATIONS<a class="headerlink" href="#10-bulk-operations" title="Permanent link">&para;</a></h2>
 <table>
 <thead>
 <tr>
-<th>Concept</th>
+<th>Operation</th>
 <th>Definition</th>
+<th>Syntax</th>
+<th>When to Use</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td><strong>Bulk Collect</strong></td>
-<td>Feature that allows fetching multiple rows at once from a cursor into a collection, improving performance.</td>
+<td><strong>BULK COLLECT</strong></td>
+<td>Feature that allows fetching multiple rows at once from cursor into collection, improving performance</td>
+<td><code>sql&lt;br&gt;DECLARE&lt;br&gt;  TYPE name_array IS TABLE OF employees.first_name%TYPE;&lt;br&gt;  v_names name_array;&lt;br&gt;  CURSOR c_emp IS SELECT first_name FROM employees;&lt;br&gt;BEGIN&lt;br&gt;  -- Fetch all rows at once&lt;br&gt;  OPEN c_emp;&lt;br&gt;  FETCH c_emp BULK COLLECT INTO v_names;&lt;br&gt;  CLOSE c_emp;&lt;br&gt;  -- Process collection&lt;br&gt;  FOR i IN 1..v_names.COUNT LOOP&lt;br&gt;    DBMS_OUTPUT.PUT_LINE(v_names(i));&lt;br&gt;  END LOOP;&lt;br&gt;END;&lt;br&gt;-- With LIMIT:&lt;br&gt;FETCH cursor_name BULK COLLECT INTO collection LIMIT 1000;</code></td>
+<td>When processing large result sets to reduce context switching between PL/SQL and SQL engines</td>
 </tr>
 <tr>
 <td><strong>FORALL</strong></td>
-<td>Statement that performs bulk DML operations on collections, processing multiple rows efficiently.</td>
+<td>Statement that performs bulk DML operations on collections, processing multiple rows efficiently</td>
+<td><code>sql&lt;br&gt;DECLARE&lt;br&gt;  TYPE id_array IS TABLE OF employees.employee_id%TYPE;&lt;br&gt;  v_ids id_array;&lt;br&gt;BEGIN&lt;br&gt;  -- Populate collection&lt;br&gt;  SELECT employee_id BULK COLLECT INTO v_ids&lt;br&gt;  FROM employees WHERE department_id = 10;&lt;br&gt;  &lt;br&gt;  -- Bulk delete&lt;br&gt;  FORALL i IN 1..v_ids.COUNT&lt;br&gt;    DELETE FROM employees WHERE employee_id = v_ids(i);&lt;br&gt;    &lt;br&gt;  -- Bulk insert&lt;br&gt;  FORALL i IN v_new_emps.FIRST..v_new_emps.LAST&lt;br&gt;    INSERT INTO employees VALUES v_new_emps(i);&lt;br&gt;END;</code></td>
+<td>For high-performance DML operations on collections, significantly faster than row-by-row processing</td>
 </tr>
 </tbody>
 </table>
-<h2 id="transaction-control"><strong>TRANSACTION CONTROL</strong><a class="headerlink" href="#transaction-control" title="Permanent link">&para;</a></h2>
+<h2 id="11-transaction-control">11. TRANSACTION CONTROL<a class="headerlink" href="#11-transaction-control" title="Permanent link">&para;</a></h2>
 <table>
 <thead>
 <tr>
-<th>Concept</th>
+<th>Statement</th>
 <th>Definition</th>
+<th>Syntax</th>
+<th>When to Use</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td><strong>Commit</strong></td>
-<td>Statement that makes all changes in the current transaction permanent.</td>
+<td><strong>COMMIT</strong></td>
+<td>Makes all changes in the current transaction permanent and releases locks</td>
+<td><code>sql&lt;br&gt;BEGIN&lt;br&gt;  INSERT INTO table1 VALUES (...);&lt;br&gt;  UPDATE table2 SET ...;&lt;br&gt;  COMMIT; -- makes changes permanent&lt;br&gt;END;</code></td>
+<td>To permanently save changes when you're confident all operations succeeded</td>
 </tr>
 <tr>
-<td><strong>Rollback</strong></td>
-<td>Statement that undoes all changes made in the current transaction.</td>
+<td><strong>ROLLBACK</strong></td>
+<td>Undoes all changes made in current transaction and releases locks</td>
+<td><code>sql&lt;br&gt;BEGIN&lt;br&gt;  INSERT INTO table1 VALUES (...);&lt;br&gt;  IF error_condition THEN&lt;br&gt;    ROLLBACK; -- undo all changes&lt;br&gt;  ELSE&lt;br&gt;    COMMIT;&lt;br&gt;  END IF;&lt;br&gt;END;</code></td>
+<td>To undo changes when errors occur or conditions aren't met</td>
 </tr>
 <tr>
-<td><strong>Savepoint</strong></td>
-<td>Named point in a transaction to which you can roll back without rolling back the entire transaction.</td>
+<td><strong>SAVEPOINT</strong></td>
+<td>Named point in transaction to which you can roll back without rolling back entire transaction</td>
+<td><code>sql&lt;br&gt;BEGIN&lt;br&gt;  INSERT INTO table1 VALUES (...);&lt;br&gt;  SAVEPOINT sp1;&lt;br&gt;  UPDATE table2 SET ...;&lt;br&gt;  IF error_condition THEN&lt;br&gt;    ROLLBACK TO sp1; -- undo only UPDATE&lt;br&gt;  END IF;&lt;br&gt;  COMMIT;&lt;br&gt;END;</code></td>
+<td>For partial rollbacks in complex transactions with multiple steps</td>
 </tr>
 <tr>
 <td><strong>PRAGMA AUTONOMOUS_TRANSACTION</strong></td>
-<td>Directive that makes a subprogram execute in its own independent transaction.</td>
+<td>Directive that makes a subprogram execute in its own independent transaction</td>
+<td><code>sql&lt;br&gt;CREATE OR REPLACE PROCEDURE log_error(&lt;br&gt;  p_error VARCHAR2&lt;br&gt;) IS&lt;br&gt;PRAGMA AUTONOMOUS_TRANSACTION;&lt;br&gt;BEGIN&lt;br&gt;  INSERT INTO error_log VALUES (p_error, SYSDATE);&lt;br&gt;  COMMIT; -- independent of calling transaction&lt;br&gt;END;</code></td>
+<td>For logging that should persist even if main transaction rolls back</td>
 </tr>
 </tbody>
 </table>
-<h2 id="dynamic-sql"><strong>DYNAMIC SQL</strong><a class="headerlink" href="#dynamic-sql" title="Permanent link">&para;</a></h2>
+<h2 id="12-dynamic-sql">12. DYNAMIC SQL<a class="headerlink" href="#12-dynamic-sql" title="Permanent link">&para;</a></h2>
 <table>
 <thead>
 <tr>
-<th>Concept</th>
+<th>Feature</th>
 <th>Definition</th>
+<th>Syntax</th>
+<th>When to Use</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td><strong>Dynamic SQL</strong></td>
-<td>SQL statements that are constructed and executed at runtime using EXECUTE IMMEDIATE or DBMS_SQL.</td>
+<td><strong>EXECUTE IMMEDIATE</strong></td>
+<td>Executes dynamically constructed SQL statements at runtime</td>
+<td><code>sql&lt;br&gt;DECLARE&lt;br&gt;  v_sql VARCHAR2(1000);&lt;br&gt;  v_table_name VARCHAR2(30) := 'employees';&lt;br&gt;  v_count NUMBER;&lt;br&gt;BEGIN&lt;br&gt;  -- Dynamic query&lt;br&gt;  v_sql := 'SELECT COUNT(*) FROM ' || v_table_name;&lt;br&gt;  EXECUTE IMMEDIATE v_sql INTO v_count;&lt;br&gt;  &lt;br&gt;  -- Dynamic DML with parameters&lt;br&gt;  v_sql := 'UPDATE ' || v_table_name || &lt;br&gt;           ' SET salary = salary * :1 WHERE dept_id = :2';&lt;br&gt;  EXECUTE IMMEDIATE v_sql USING 1.1, 10;&lt;br&gt;END;</code></td>
+<td>When SQL statements need to be constructed at runtime based on conditions or user input</td>
 </tr>
 </tbody>
 </table>
-<h2 id="performance-and-optimization"><strong>PERFORMANCE AND OPTIMIZATION</strong><a class="headerlink" href="#performance-and-optimization" title="Permanent link">&para;</a></h2>
+<h2 id="13-performance-features">13. PERFORMANCE FEATURES<a class="headerlink" href="#13-performance-features" title="Permanent link">&para;</a></h2>
 <table>
 <thead>
 <tr>
-<th>Concept</th>
+<th>Feature</th>
 <th>Definition</th>
+<th>Syntax</th>
+<th>When to Use</th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td><strong>Pipelined Function</strong></td>
-<td>Function that returns rows as they are produced rather than building the entire result set first.</td>
+<td>Function that returns rows as they are produced rather than building entire result set first</td>
+<td><code>sql&lt;br&gt;CREATE OR REPLACE FUNCTION get_employees&lt;br&gt;RETURN sys.odcinumberlist PIPELINED IS&lt;br&gt;BEGIN&lt;br&gt;  FOR rec IN (SELECT employee_id FROM employees) LOOP&lt;br&gt;    PIPE ROW(rec.employee_id);&lt;br&gt;  END LOOP;&lt;br&gt;  RETURN;&lt;br&gt;END;&lt;br&gt;-- Usage in SQL:&lt;br&gt;SELECT * FROM TABLE(get_employees());</code></td>
+<td>For memory-efficient processing of large result sets, especially in ETL operations</td>
 </tr>
 <tr>
 <td><strong>Deterministic Function</strong></td>
-<td>Function that always returns the same result for the same input parameters.</td>
+<td>Function that always returns the same result for the same input parameters</td>
+<td><code>sql&lt;br&gt;CREATE OR REPLACE FUNCTION calculate_tax(&lt;br&gt;  p_salary NUMBER&lt;br&gt;) RETURN NUMBER DETERMINISTIC IS&lt;br&gt;BEGIN&lt;br&gt;  RETURN p_salary * 0.15;&lt;br&gt;END;&lt;br&gt;-- Oracle can cache results for same inputs</code></td>
+<td>When function results can be cached for performance, pure mathematical calculations</td>
 </tr>
 <tr>
 <td><strong>Parallel Enable</strong></td>
-<td>Hint that allows a function to be executed in parallel during query processing.</td>
-</tr>
-</tbody>
-</table>
-<h2 id="compilation-and-dependencies"><strong>COMPILATION AND DEPENDENCIES</strong><a class="headerlink" href="#compilation-and-dependencies" title="Permanent link">&para;</a></h2>
-<table>
-<thead>
-<tr>
-<th>Concept</th>
-<th>Definition</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><strong>Compilation</strong></td>
-<td>Process of translating PL/SQL source code into executable bytecode stored in the database.</td>
-</tr>
-<tr>
-<td><strong>Native Compilation</strong></td>
-<td>Feature that compiles PL/SQL code to native machine code for better performance.</td>
-</tr>
-<tr>
-<td><strong>Dependency</strong></td>
-<td>Relationship between database objects where one object references another.</td>
-</tr>
-<tr>
-<td><strong>Invalidation</strong></td>
-<td>Process where dependent objects become invalid when referenced objects are modified.</td>
-</tr>
-</tbody>
-</table>
-<h2 id="performance-tuning"><strong>PERFORMANCE TUNING</strong><a class="headerlink" href="#performance-tuning" title="Permanent link">&para;</a></h2>
-<table>
-<thead>
-<tr>
-<th>Concept</th>
-<th>Definition</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><strong>Execution Plan</strong></td>
-<td>Detailed steps that Oracle follows to execute a SQL statement, showing access paths and join methods.</td>
-</tr>
-<tr>
-<td><strong>Cost-Based Optimizer (CBO)</strong></td>
-<td>Oracle's optimizer that chooses execution plans based on statistics and cost calculations.</td>
-</tr>
-<tr>
-<td><strong>Table Statistics</strong></td>
-<td>Metadata about table data distribution used by the optimizer to choose optimal execution plans.</td>
-</tr>
-<tr>
-<td><strong>Index Hints</strong></td>
-<td>Optimizer hints like /<em>+ INDEX </em>/ that suggest specific indexes to use for query execution.</td>
-</tr>
-<tr>
-<td><strong>Explain Plan</strong></td>
-<td>Command used to view the execution plan of a SQL statement without actually executing it.</td>
-</tr>
-<tr>
-<td><strong>TKPROF</strong></td>
-<td>Oracle utility that formats and analyzes SQL trace files to identify performance bottlenecks.</td>
-</tr>
-<tr>
-<td><strong>Autotrace</strong></td>
-<td>SQL*Plus feature that displays execution plans and statistics after running SQL statements.</td>
-</tr>
-<tr>
-<td><strong>V$SESSION_WAIT</strong></td>
-<td>Dynamic view that shows what each session is currently waiting for, useful for performance diagnosis.</td>
-</tr>
-<tr>
-<td><strong>AWR (Automatic Workload Repository)</strong></td>
-<td>Oracle feature that automatically captures and stores performance statistics for analysis.</td>
-</tr>
-<tr>
-<td><strong>ADDM (Automatic Database Diagnostic Monitor)</strong></td>
-<td>Oracle tool that analyzes AWR data and provides performance recommendations.</td>
-</tr>
-<tr>
-<td><strong>SQL Tuning Advisor</strong></td>
-<td>Oracle tool that analyzes SQL statements and recommends performance improvements.</td>
-</tr>
-<tr>
-<td><strong>Index Usage Monitoring</strong></td>
-<td>Feature to track whether indexes are being used to identify unused indexes for removal.</td>
-</tr>
-<tr>
-<td><strong>Partition Pruning</strong></td>
-<td>Optimization technique where Oracle eliminates unnecessary partitions during query execution.</td>
-</tr>
-<tr>
-<td><strong>Parallel Execution</strong></td>
-<td>Feature that allows SQL operations to be executed using multiple parallel processes for better performance.</td>
-</tr>
-</tbody>
-</table>
-<h2 id="security-and-privileges"><strong>SECURITY AND PRIVILEGES</strong><a class="headerlink" href="#security-and-privileges" title="Permanent link">&para;</a></h2>
-<table>
-<thead>
-<tr>
-<th>Concept</th>
-<th>Definition</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><strong>AUTHID</strong></td>
-<td>Clause that specifies whether a subprogram executes with definer's or invoker's privileges.</td>
-</tr>
-<tr>
-<td><strong>DEFINER Rights</strong></td>
-<td>Default privilege model where subprograms execute with the privileges of the owner.</td>
-</tr>
-<tr>
-<td><strong>INVOKER Rights</strong></td>
-<td>Privilege model where subprograms execute with the privileges of the calling user.</td>
-</tr>
-</tbody>
-</table>
-<h2 id="design-patterns-and-best-practices"><strong>DESIGN PATTERNS AND BEST PRACTICES</strong><a class="headerlink" href="#design-patterns-and-best-practices" title="Permanent link">&para;</a></h2>
-<table>
-<thead>
-<tr>
-<th>Concept</th>
-<th>Definition</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><strong>Code Organization</strong></td>
-<td>Best practices for structuring PL/SQL code including naming conventions and modularization.</td>
-</tr>
-<tr>
-<td><strong>Error Logging Framework</strong></td>
-<td>Systematic approach to logging errors and debug information in PL/SQL applications.</td>
-</tr>
-<tr>
-<td><strong>Configuration Management</strong></td>
-<td>Techniques for managing application settings and configuration parameters.</td>
-</tr>
-<tr>
-<td><strong>Code Review Standards</strong></td>
-<td>Guidelines and checklists for reviewing PL/SQL code quality and maintainability.</td>
-</tr>
-<tr>
-<td><strong>Testing Strategies</strong></td>
-<td>Approaches for unit testing, integration testing, and debugging PL/SQL code.</td>
-</tr>
-<tr>
-<td><strong>Documentation Standards</strong></td>
-<td>Best practices for documenting PL/SQL code including comments and specifications.</td>
-</tr>
-</tbody>
-</table>
-<h2 id="pragma-directives"><strong>PRAGMA DIRECTIVES</strong><a class="headerlink" href="#pragma-directives" title="Permanent link">&para;</a></h2>
-<table>
-<thead>
-<tr>
-<th>Concept</th>
-<th>Definition</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><strong>PRAGMA</strong></td>
-<td>Compiler directive that provides instructions to the PL/SQL compiler.</td>
-</tr>
-<tr>
-<td><strong>PRAGMA SERIALLY_REUSABLE</strong></td>
-<td>Directive that makes package variables reset to initial values after each use.</td>
+<td>Hint that allows a function to be executed in parallel during query processing</td>
+<td><code>sql&lt;br&gt;CREATE OR REPLACE FUNCTION process_data(&lt;br&gt;  p_value NUMBER&lt;br&gt;) RETURN NUMBER&lt;br&gt;PARALLEL_ENABLE IS&lt;br&gt;BEGIN&lt;br&gt;  RETURN p_value * 2;&lt;br&gt;END;</code></td>
+<td>For functions used in SELECT statements that can benefit from parallel execution</td>
 </tr>
 </tbody>
 </table>
@@ -1507,6 +1402,8 @@
     
     
       <script src="../../assets/javascripts/bundle.50899def.min.js"></script>
+      
+        <script src="../../extra.js"></script>
       
     
   </body>
