@@ -1,4 +1,5 @@
 site_name: pl_sql_interview
+
 theme:
   name: material
   palette:
@@ -18,42 +19,30 @@ theme:
         icon: material/white-balance-sunny
         name: Switch to dark mode
 
-# extra_css:
-#       - extra.css
-
-# extra_javascript:
-#        - extra.js
-
-#   palette:
-#     scheme: default
-#     primary: green
-#     accent: indigo
-
-
   features:
     - navigation.tabs
-    #- navigation.expand
-    #- navigation.sections
+    # - navigation.expand
+    # - navigation.sections
     - content.code.copy
     - content.action.edit
     - search.suggest
     - search.highlight
 
-#
-# PL_SQL\docs\PL_SQL\docs\1.Interview.md
+extra_css:
+  - styles/extra.css
+
+extra_javascript:
+  - extra.js
 
 nav:
-   
   - Introduction:
-     - My_intro: Interview/1.Introduction.md
+      - My_intro: Interview/1.Introduction.md
 
   - Sql:
-      - sql_interview : Interview/2.sql.md
+      - sql_interview: Interview/2.sql.md
+
   - PL-SQL:
       - Plsql-Intro: Interview/3.plsql.md
-
-          
-
 
 markdown_extensions:
   - admonition

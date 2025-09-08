@@ -1,0 +1,19 @@
+/* Increase main content width */
+.md-grid {
+    max-width: 100%;  /* Default is 61rem, this expands it */
+}
+
+/* Adjust the left sidebar width */
+.md-sidebar--primary {
+    width: 200px;  /* You can reduce this more if needed */
+}
+
+/* Adjust the right sidebar (table of contents) */
+.md-sidebar--secondary {
+    width: 200px;  /* You can also hide it if needed */
+}
+
+/* Optionally shrink TOC font or spacing */
+.md-nav__title, .md-nav__item {
+    font-size: 0.85rem;
+}
